@@ -37,7 +37,12 @@ nav {
     margin:auto;
     text-align: center;
     padding-top: 5pt;
-    padding-bottom: 10pt;}
+    padding-bottom: 10pt;
+    position: fixed;
+    background-color: #fd3a18;
+    z-index: 3;
+}
+
 ul{
     
    list-style-type: square;
@@ -85,6 +90,12 @@ margin: auto;
 width: auto;
 height:auto;
 padding-bottom: 20pt;
+}
+
+#columns{ 
+width: 80%;
+margin: auto;
+position: relative; 
 }
 
 footer{
