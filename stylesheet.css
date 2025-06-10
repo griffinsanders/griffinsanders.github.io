@@ -23,7 +23,21 @@
     text-transform: uppercase;
     padding-top: 0px;
     line-height: 1em;
+    
+    animation-name: hover;
+    animation-duration: 0.3s;
+    
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: ; */
+
+    
     }
+@keyframes hover{
+    from{color:#fd3a18}
+    to{color:rgb(255, 208, 0);}
+}
 
 h2 {color: #fd3a18;
 font-size: 2em;
@@ -38,7 +52,7 @@ nav {
     text-align: center;
     padding-top: 5pt;
     padding-bottom: 10pt;
-    position: fixed;
+    
     background-color: #fd3a18;
     z-index: 3;
 }
@@ -76,6 +90,13 @@ ul{
  .col-11 {width: 91.66%;}
  .col-12 {width: 100%;}
     
+ @media only screen and (max-width: 1000px) {
+    #wrapper { width: 80%; margin: auto; } 
+    .column { width: 33.33%; float: left; margin: 10%; } 
+   
+    @media only screen and (max-width: 400px)
+    .column { width: 100%; float: left; margin: 0%; }
+} /* smaller than mobile */ {
  body {
 
 
@@ -111,6 +132,6 @@ footer{
 }
     a:link{
         color:rgb(255, 208, 0);
-    
+    }   
 }
 

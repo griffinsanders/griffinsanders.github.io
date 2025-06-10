@@ -1,0 +1,229 @@
+
+
+header{
+    background-color: rgb(53, 43, 35);
+    height: ;
+    background-size: cover;
+    margin: 0;
+   }
+   
+   
+   h1{
+      font-size: 3em;
+      font-family: "Young Serif", serif;
+   font-weight: 900;
+   font-style: normal;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   font-size: 40px;
+   margin-top: 0px:
+   font-weight: 700;
+   font-style: normal;
+   line-height: .5;
+     
+   }
+   h2{
+      font-family: "Bayon", sans-serif;
+      font-size: 30em;
+      line-height: 1em;
+      padding-top: 0px;
+      margin:auto;
+      text-align: center;
+      font-size: 38vw ;
+         
+   font-weight: 700;
+   font-style: normal;
+   line-height: 1;
+     
+   }
+   h3{
+      font-size: 2em;
+      font-family: "Young Serif", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: center;
+   color: rgb(53, 43, 35);
+   
+   
+   }
+   
+   
+   h4{
+     font-family: "Bayon", sans-serif;
+      font-size: 300px !important;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   color: rgb(230,77,41);
+   }
+   
+   
+   h5{
+      margin: auto;
+      font-family: "Bayon", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 150px;
+   }
+   
+   
+   h6{
+      font-family: 'Bayon', sans-serif;
+      font-size: 40px !important;
+      margin: 0;
+      line-height: ;
+      color: rgb(241, 182, 44);
+   }
+   
+   
+   
+   
+   /* Create four equal columns that floats next to each other */
+   .column {
+    float: left;
+    width: 22%;
+    padding: 10px;
+    }
+   
+   
+   /* Clear floats after the columns */
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+   /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+   }
+   
+   
+   body{
+      margin:0;
+      background-color:rgb(241, 182, 44);
+      padding:0;
+   }
+   
+   
+   .title{
+      color: rgb(241, 182, 44);
+   }
+   
+   
+   
+   
+   #sekoutoure {
+    width: 25px
+    border: 3px solid black;
+   }
+   
+   
+   .allColumns{
+      float: left;
+      width: 22%;
+      padding: 10px;
+   }
+   
+   
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
+   
+   
+   #expensive{
+   
+   
+   }
+   
+   
+   @media screen and (max-width: 768px)
+   
+   
+   #quote{
+    height:100vh;
+    background-image: url("fela_quote.jpg");
+    background-size: cover;
+   }
+   
+   
+   html, body{
+    height:100%
+    margin: 0px;
+    padding: 0px;
+   }
+   
+   
+   p{
+    font-family: "Averia serif libre", sans-serif;
+    font-size: 1em;
+    margin: auto;
+    color: rgb(53, 43, 35);
+    font-weight: 500;
+   }
+   
+   
+   #coffin{
+    padding-bottom: 3vw;
+   }
+   
+   
+   #quote_fela{
+    padding-bottom: 0px;
+   }
+   
+   
+   #expensive{
+    padding-bottom: 3vw;
+   }
+   
+   
+   #afterleaders{
+    padding-top: 3vw;
+   }
+   
+   
+   #title{
+    padding-bottom: 3vw;
+   }
+   
+   
+   #aftertitle{
+    padding-top: 3vw;
+   }
+   
+   
+   #leaders{
+   background-color:rgb(230,77,41);
+   width: 100vw;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   }
+   
+   
+   #footer{
+    padding-bottom: 75px;
+   }
+   
+   
+   .marquee div{
+   animation: animate 5s linear infinite;
+   }
+   
+   
+   @keyframes animate{
+    100%{
+      transform: translate(-100%, 0);
+    }
+   }
+   
+   #leaderstext{
+    color: rgb(241, 182, 44);
+   }
