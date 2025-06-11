@@ -5,6 +5,7 @@ header{
     height: ;
     background-size: cover;
     margin: 0;
+    padding-left: 10px;
    }
    
    
@@ -54,11 +55,12 @@ header{
    
    h4{
      font-family: "Bayon", sans-serif;
-      font-size: 300px !important;
+      font-size: 300px ;
    font-weight: 400;
    font-style: normal;
    text-align: center;
    color: rgb(230,77,41);
+   margin: 0px;
    }
    
    
@@ -73,10 +75,12 @@ header{
    
    h6{
       font-family: 'Bayon', sans-serif;
-      font-size: 40px !important;
+      font-size: 50px;
       margin: 0;
-      line-height: ;
+      line-height: 50px;
       color: rgb(241, 182, 44);
+      padding-top: 15px;
+      padding-bottom: 15px;
    }
    
    
@@ -164,9 +168,10 @@ header{
    p{
     font-family: "Averia serif libre", sans-serif;
     font-size: 1em;
-    margin: auto;
+    margin: 0em;
     color: rgb(53, 43, 35);
     font-weight: 500;
+
    }
    
    
@@ -213,17 +218,53 @@ header{
    }
    
    
-   .marquee div{
-   animation: animate 5s linear infinite;
-   }
    
-   
-   @keyframes animate{
-    100%{
-      transform: translate(-100%, 0);
-    }
-   }
    
    #leaderstext{
     color: rgb(241, 182, 44);
    }
+
+   .row{
+    margin-top: 0em;
+    margin-bottom: 2em
+   }
+
+   .marquee {
+    position: relative;
+    overflow: hidden;
+    --offset: 20vw;
+    --move-initial: calc(-25% + var(--offset));
+    --move-final: calc(-50% + var(--offset));
+    
+
+}
+
+.marquee__inner {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    transform: translate3d(var(--move-initial), 0, 0);
+    animation: marquee 5s linear infinite;
+    animation-play-state: paused;
+    
+}
+
+.marquee span {
+    font-size: 10vw;
+    padding: 0 2vw;
+    
+}
+
+.marquee__inner {
+    animation-play-state: running;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(var(--move-initial), 0, 0);
+    }
+
+    100% {
+        transform: translate3d(var(--move-final), 0, 0);
+    }
+}
